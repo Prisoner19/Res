@@ -3,38 +3,43 @@ using System.Collections;
 
 public class Shooting : MonoBehaviour 
 {
-	public SpriteRenderer sprRnd;
-	public Sprite spr_free;
-	public Sprite spr_busy;
+	private Soldier obj_soldier;
 
 	private bool can_shoot;
 
-	// Use this for initialization
+	void Awake()
+	{
+		obj_soldier = gameObject.GetComponent<Soldier>();
+	}
+
 	void Start () 
 	{
-		can_shoot = false;
+		can_shoot = true;
 	}
 	
-	// Update is called once per frame
 	void Update () 
 	{
 	
 	}
 
-	public void Shoot()
+	public bool Try_To_Shoot()
 	{
+		bool success = can_shoot;
+
 		if(can_shoot)
 		{
 			StartCoroutine(Fire_Weapon());
 		}
+
+		return success;
 	}
 
 	private IEnumerator Fire_Weapon()
 	{
 		can_shoot = false;
-		sprRnd.sprite = spr_busy;
+		obj_soldier.Get_Rendering().Change_To_Busy();
 		yield return new WaitForSeconds(2);
+		obj_soldier.Get_Rendering().Change_To_Free();
 		can_shoot = true;
-		sprRnd.sprite = spr_free;
 	}
 }
