@@ -37,7 +37,7 @@ public class EnemyManager : MonoBehaviour
 	{
 		can_spawn = false;
 		Spawn_Enemy();
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(Random.Range(0.5f,0.7f));
 		can_spawn = true;
 	}
 
