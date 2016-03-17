@@ -5,10 +5,7 @@ public class Rendering : MonoBehaviour
 {
 	private Soldier obj_soldier;
 
-	private SpriteRenderer sprRnd;
-	private Sprite spr_free;
-	private Sprite spr_busy;
-	private Sprite spr_reloading;
+	private Animator comp_animator;
 
 	private SpriteRenderer sprRnd_marker;
 
@@ -16,15 +13,14 @@ public class Rendering : MonoBehaviour
 	void Awake()
 	{
 		obj_soldier = gameObject.GetComponent<Soldier>();
-		sprRnd = gameObject.GetComponent<SpriteRenderer>();
+		comp_animator = gameObject.GetComponent<Animator>();
 		sprRnd_marker = gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
 	}
 
 	// Use this for initialization
 	void Start () 
 	{
-		Load_Sprites();
-		Change_To_Free();
+		Change_To_Idle();
 	}
 	
 	// Update is called once per frame
@@ -33,26 +29,20 @@ public class Rendering : MonoBehaviour
 	
 	}
 
-	private void Load_Sprites()
+	public void Change_To_Shooting()
 	{
-		spr_free = Resources.Load<Sprite>("Sprites/spr_sold_" + obj_soldier.ID + "_free");
-		spr_busy = Resources.Load<Sprite>("Sprites/spr_sold_" + obj_soldier.ID + "_busy");
-		spr_reloading = Resources.Load<Sprite>("Sprites/spr_sold_" + obj_soldier.ID + "_reloading");
+		Debug.Log("asd");
+		comp_animator.SetTrigger("is_shooting");
 	}
 
-	public void Change_To_Busy()
+	public void Change_To_Idle()
 	{
-		sprRnd.sprite = spr_busy;
-	}
-
-	public void Change_To_Free()
-	{
-		sprRnd.sprite = spr_free;
+		
 	}
 
 	public void Change_To_Reloading()
 	{
-		sprRnd.sprite = spr_reloading;
+		comp_animator.SetTrigger("is_reloading");
 	}
 
 	public void Change_To_Selected()

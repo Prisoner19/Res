@@ -9,6 +9,7 @@ public class EnemyManager : MonoBehaviour
 	public GameObject pfb_enemy;
 
 	private List<Enemy> list_obj_enemies;
+	private GameObject go_enemy_container;
 	private bool can_spawn;
 
 	// Use this for references
@@ -22,6 +23,7 @@ public class EnemyManager : MonoBehaviour
 	{
 		can_spawn = true;
 		list_obj_enemies = new List<Enemy>();
+		go_enemy_container = GameObject.Find("Enemies");
 	}
 	
 	// Update is called once per frame
@@ -50,13 +52,15 @@ public class EnemyManager : MonoBehaviour
 
 		switch(rand)
 		{
-			case 1: enemy_position = new Vector3(1100,350); break;
+			case 1: enemy_position = new Vector3(1100,370); break;
 			case 2: enemy_position = new Vector3(1100,150); break;
 			case 3: enemy_position = new Vector3(1100,-50); break;
 			case 4: enemy_position = new Vector3(1100,-250); break;
 		}
 
+		go_enemy.name = "Enemy";
 		go_enemy.transform.position = enemy_position;
+		go_enemy.transform.parent = go_enemy_container.transform;
 		list_obj_enemies.Add(go_enemy.GetComponent<Enemy>());
 	}
 

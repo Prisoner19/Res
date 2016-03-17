@@ -30,33 +30,45 @@ public class Shooting : MonoBehaviour
 
 		if(can_shoot)
 		{
-			StartCoroutine(Fire_Weapon());
+			Start_To_Fire_Weapon();
 		}
 
 		return success;
 	}
+		
+	private void Start_To_Fire_Weapon()
+	{
+		can_shoot = false;
+		obj_soldier.Get_Rendering().Change_To_Shooting();
+	}
+
+	private void Fire_Weapon()
+	{
+		Decrease_Ammo();
+	}
+
+	private void Finish_Firing_Weapon()
+	{
+		if(Is_Out_Of_Ammo())
+		{
+			Reload_Weapon();
+		}
+		else
+		{
+			obj_soldier.Get_Rendering().Change_To_Idle();
+			can_shoot = true;
+		}
+	}
 
 	private void Reload_Weapon()
 	{
-		current_ammo = 6;
+		obj_soldier.Get_Rendering().Change_To_Reloading();
 	}
 
-	private IEnumerator Fire_Weapon()
+	private void Finish_Reloading_Weapon()
 	{
-		can_shoot = false;
-		Decrease_Ammo();
-		obj_soldier.Get_Rendering().Change_To_Busy();
-
-		yield return new WaitForSeconds(1);
-
-		if(Is_Out_Of_Ammo())
-		{
-			obj_soldier.Get_Rendering().Change_To_Reloading();
-			yield return new WaitForSeconds(2);
-			Reload_Weapon();
-		}
-
-		obj_soldier.Get_Rendering().Change_To_Free();
+		current_ammo = 6;
+		obj_soldier.Get_Rendering().Change_To_Idle();
 		can_shoot = true;
 	}
 

@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: e36454fea4d0bdd4492f174fe9d068f6
+timeCreated: 1448048249
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Soldier Spritesheet_0
+    21300002: Soldier Spritesheet_1
+    21300004: Soldier Spritesheet_2
+    21300006: Soldier Spritesheet_3
+    21300008: Soldier Spritesheet_4
+    21300010: Soldier Spritesheet_5
+    21300012: Soldier Spritesheet_6
+    21300014: Soldier Spritesheet_7
+    21300016: Soldier Spritesheet_8
+    21300018: Soldier Spritesheet_9
+    21300020: Soldier Spritesheet_10
+    21300022: Soldier Spritesheet_11
+    21300024: Soldier Spritesheet_12
+    21300026: Soldier Spritesheet_13
+    21300028: Soldier Spritesheet_14
+    21300030: Soldier Spritesheet_15
+    21300032: Soldier Spritesheet_16
+    21300034: Soldier Spritesheet_17
+    21300036: Soldier Spritesheet_18
+    21300038: Soldier Spritesheet_19
+    21300040: Soldier Spritesheet_20
+    21300042: Soldier Spritesheet_21
+    21300044: Soldier Spritesheet_22
+    21300046: Soldier Spritesheet_23
+    21300048: Soldier Spritesheet_24
+    21300050: Soldier Spritesheet_25
+    21300052: Soldier Spritesheet_26
+    21300054: Soldier Spritesheet_27
+    21300056: Soldier Spritesheet_28
+    21300058: Soldier Spritesheet_29
+    21300060: Soldier Spritesheet_30
+    21300062: Soldier Spritesheet_31
+    21300064: Soldier Spritesheet_32
+    21300066: Soldier Spritesheet_33
+    21300068: Soldier Spritesheet_34
+    21300070: Soldier Spritesheet_35
+    21300072: Soldier Spritesheet_36
+    21300074: Soldier Spritesheet_37
+    21300076: Soldier Spritesheet_38
+    21300078: Soldier Spritesheet_39
+    21300080: Soldier Spritesheet_40
+    21300082: Soldier Spritesheet_41
+    21300084: Soldier Spritesheet_42
+    21300086: Soldier Spritesheet_43
+    21300088: Soldier Spritesheet_44
+    21300090: Soldier Spritesheet_45
+    21300092: Soldier Spritesheet_46
+    21300094: Soldier Spritesheet_47
+    21300096: Soldier Spritesheet_48
+    21300098: Soldier Spritesheet_49
+    21300100: Soldier Spritesheet_50
+    21300102: Soldier Spritesheet_51
+    21300104: Soldier Spritesheet_52
+    21300106: Soldier Spritesheet_53
+    21300108: Soldier Spritesheet_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Soldier Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 535
+        width: 44
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 535
+        width: 48
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 535
+        width: 47
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 535
+        width: 42
+        height: 40
+      alignment: 9
+      pivot: {x: .948000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 535
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: .948000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 535
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: .948000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 535
+        width: 43
+        height: 44
+      alignment: 9
+      pivot: {x: .948837638, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 535
+        width: 47
+        height: 38
+      alignment: 9
+      pivot: {x: .969149351, y: .0105269579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 535
+        width: 46
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 535
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 484
+        width: 40
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 484
+        width: 40
+        height: 42
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 484
+        width: 40
+        height: 47
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 484
+        width: 40
+        height: 48
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 484
+        width: 40
+        height: 47
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 484
+        width: 40
+        height: 42
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 484
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 484
+        width: 46
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 484
+        width: 44
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 830
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 830
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 830
+        width: 39
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 830
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 790
+        width: 34
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 790
+        width: 37
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 795
+        width: 42
+        height: 31
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 792
+        width: 42
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 791
+        width: 37
+        height: 35
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 790
+        width: 35
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 790
+        width: 34
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 791
+        width: 38
+        height: 36
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 796
+        width: 40
+        height: 30
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 793
+        width: 38
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 791
+        width: 37
+        height: 35
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 790
+        width: 35
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 615
+        width: 39
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 615
+        width: 34
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 615
+        width: 29
+        height: 43
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 615
+        width: 26
+        height: 44
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 615
+        width: 28
+        height: 43
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 615
+        width: 34
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 615
+        width: 39
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 433
+        width: 46
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 433
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 433
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 433
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 433
+        width: 40
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 433
+        width: 41
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 433
+        width: 33
+        height: 41
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 433
+        width: 30
+        height: 47
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 433
+        width: 29
+        height: 48
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 433
+        width: 28
+        height: 47
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 433
+        width: 28
+        height: 37
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 433
+        width: 28
+        height: 43
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

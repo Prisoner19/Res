@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: b6d12adb94ff317448c174d8c42f628c
+timeCreated: 1448051272
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bullet Spritesheet_B
+    21300002: Bullet Spritesheet_D
+    21300004: Bullet Spritesheet_E
+    21300006: Bullet Spritesheet_A
+    21300008: Bullet Spritesheet_C
+    21300010: Bullet Spritesheet_G
+    21300012: Bullet Spritesheet_F
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bullet Spritesheet_B
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet Spritesheet_D
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet Spritesheet_E
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet Spritesheet_A
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet Spritesheet_C
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 42
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet Spritesheet_G
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 37
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet Spritesheet_F
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
