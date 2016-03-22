@@ -31,7 +31,6 @@ public class Rendering : MonoBehaviour
 
 	public void Change_To_Shooting()
 	{
-		Debug.Log("asd");
 		comp_animator.SetTrigger("is_shooting");
 	}
 
@@ -43,6 +42,11 @@ public class Rendering : MonoBehaviour
 	public void Change_To_Reloading()
 	{
 		comp_animator.SetTrigger("is_reloading");
+	}
+
+	public void Change_To_Attack_With_Knife()
+	{
+		comp_animator.SetTrigger("is_knifing");
 	}
 
 	public void Change_To_Selected()

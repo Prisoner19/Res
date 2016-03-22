@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 8f87d9c3766363b4cb21d90bddd8d49a
+timeCreated: 1458493753
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: knife_0
+    21300002: knife_1
+    21300004: knife_2
+    21300006: knife_3
+    21300008: knife_4
+    21300010: knife_5
+    21300012: knife_6
+    21300014: knife_7
+    21300016: knife_8
+    21300018: knife_9
+    21300020: knife_10
+    21300022: knife_11
+    21300024: knife_12
+    21300026: knife_13
+    21300028: knife_14
+    21300030: knife_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: knife_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 25
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 17
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 17
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 16
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 17
+        width: 24
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 19
+        width: 29
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 19
+        width: 29
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 20
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: knife_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 18
+        width: 43
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 1}
+        - {x: 21.5, y: 19}
+        - {x: 1.5, y: 33}
+        - {x: -15.5, y: 33}
+        - {x: -21.5, y: 23}
+        - {x: -21.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 8.5, y: 11}
+        - {x: 11.5, y: 9}
+        - {x: 20.5, y: 1}
+    - name: knife_10
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 18
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 32}
+        - {x: -18.5, y: 32}
+        - {x: -24.5, y: 29}
+        - {x: -24.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 14.5, y: 2}
+        - {x: 24.5, y: 19}
+        - {x: 24.5, y: 27}
+    - name: knife_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 17
+        width: 46
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 35}
+        - {x: -23, y: 31}
+        - {x: -23, y: 0}
+        - {x: 9, y: 0}
+        - {x: 23, y: 28}
+        - {x: 23, y: 35}
+    - name: knife_12
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 15
+        width: 49
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 32}
+        - {x: -18.5, y: 32}
+        - {x: -24.5, y: 29}
+        - {x: -24.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 14.5, y: 2}
+        - {x: 24.5, y: 19}
+        - {x: 24.5, y: 27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

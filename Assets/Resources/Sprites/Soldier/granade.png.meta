@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 1f900c3d01a5cd549a06aff30d707c11
+timeCreated: 1458493541
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: granade_0
+    21300002: granade_1
+    21300004: granade_2
+    21300006: granade_3
+    21300008: granade_4
+    21300010: granade_5
+    21300012: granade_6
+    21300014: granade_7
+    21300016: granade_8
+    21300018: granade_9
+    21300020: granade_10
+    21300022: granade_11
+    21300024: granade_12
+    21300026: granade_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: granade_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: granade_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: granade_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: granade_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: granade_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 37}
+        - {x: -0.5, y: 39}
+        - {x: -16.5, y: 39}
+        - {x: -17.5, y: 37}
+        - {x: -17.5, y: 10}
+        - {x: -14.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 12.5, y: 3}
+        - {x: 17.5, y: 13}
+        - {x: 17.5, y: 29}
+    - name: granade_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 42}
+        - {x: -20, y: 6}
+        - {x: -19, y: 0}
+        - {x: 16, y: 0}
+        - {x: 20, y: 12}
+        - {x: 20, y: 33}
+        - {x: 4, y: 42}
+    - name: granade_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1
+        width: 42
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 39}
+        - {x: -21, y: 9}
+        - {x: -16, y: 0}
+        - {x: 15, y: 0}
+        - {x: 21, y: 13}
+        - {x: 21, y: 39}
+    - name: granade_7
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1
+        width: 43
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 38}
+        - {x: -21.5, y: 9}
+        - {x: -18.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 21.5, y: 10}
+        - {x: 21.5, y: 38}
+    - name: granade_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 42}
+        - {x: -18, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 37}
+        - {x: 13, y: 42}
+    - name: granade_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 42}
+        - {x: -16.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 16.5, y: 4}
+        - {x: 16.5, y: 30}
+        - {x: 10.5, y: 42}
+    - name: granade_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 35}
+        - {x: -15.5, y: 24}
+        - {x: -17.5, y: 15}
+        - {x: -17.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 17.5, y: 7}
+        - {x: 17.5, y: 25}
+        - {x: 10.5, y: 35}
+    - name: granade_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: granade_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: granade_13
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

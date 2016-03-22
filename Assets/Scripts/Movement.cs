@@ -14,7 +14,7 @@ public class Movement : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		comp_rigidbody.velocity = new Vector2(-500, 0);
+		comp_rigidbody.velocity = new Vector2(-600, 0);
 	}
 	
 	// Update is called once per frame

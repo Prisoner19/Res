@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: d69b32533bfd88a4984977221a5154d1
+timeCreated: 1458494928
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rifle_0
+    21300002: rifle_1
+    21300004: rifle_2
+    21300006: rifle_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rifle_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10
+        width: 61
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 38}
+        - {x: -30.5, y: 37}
+        - {x: -30.5, y: 0}
+        - {x: 6.5, y: 0}
+        - {x: 28.5, y: 16}
+        - {x: 30.5, y: 20}
+        - {x: 30.5, y: 38}
+    - name: rifle_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 10
+        width: 59
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 3}
+        - {x: 29.5, y: 18}
+        - {x: 29.5, y: 35}
+        - {x: -29.5, y: 35}
+        - {x: -29.5, y: 0}
+        - {x: -19.5, y: 0}
+        - {x: -17.5, y: 4}
+        - {x: -14.5, y: 0}
+        - {x: -0.5, y: 0}
+    - name: rifle_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 10
+        width: 59
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 36}
+        - {x: -29.5, y: 0}
+        - {x: 4.5, y: 0}
+        - {x: 25.5, y: 16}
+        - {x: 29.5, y: 21}
+        - {x: 29.5, y: 36}
+    - name: rifle_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10
+        width: 60
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 35}
+        - {x: -30, y: 0}
+        - {x: 6, y: 0}
+        - {x: 27, y: 15}
+        - {x: 30, y: 20}
+        - {x: 30, y: 35}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
