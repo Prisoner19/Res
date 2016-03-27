@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -8,7 +9,7 @@ public class EnemyManager : MonoBehaviour
 
 	public GameObject pfb_enemy;
 
-	private List<Enemy> list_obj_enemies;
+	private List<Enemy.Info> list_obj_enemies;
 	private GameObject go_enemy_container;
 	private bool can_spawn;
 
@@ -21,8 +22,9 @@ public class EnemyManager : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
+		Debug.Log(System.Environment.Version);
 		can_spawn = true;
-		list_obj_enemies = new List<Enemy>();
+		list_obj_enemies = new List<Enemy.Info>();
 		go_enemy_container = GameObject.Find("Enemies");
 	}
 	
@@ -39,7 +41,7 @@ public class EnemyManager : MonoBehaviour
 	{
 		can_spawn = false;
 		Spawn_Enemy();
-		yield return new WaitForSeconds(Random.Range(0.4f,0.6f));
+		yield return new WaitForSeconds(UnityEngine.Random.Range(0.4f,0.6f));
 		can_spawn = true;
 	}
 
@@ -47,7 +49,7 @@ public class EnemyManager : MonoBehaviour
 	{
 		GameObject go_enemy = GameObject.Instantiate(pfb_enemy);
 
-		int rand = Random.Range(1, 5);
+		int rand = UnityEngine.Random.Range(1, 5);
 		Vector3 enemy_position = Vector3.zero;
 
 		switch(rand)
@@ -61,7 +63,7 @@ public class EnemyManager : MonoBehaviour
 		go_enemy.name = "Enemy";
 		go_enemy.transform.position = enemy_position;
 		go_enemy.transform.parent = go_enemy_container.transform;
-		list_obj_enemies.Add(go_enemy.GetComponent<Enemy>());
+		list_obj_enemies.Add(go_enemy.GetComponent<Enemy.Info>());
 	}
 
 	public static EnemyManager Instance 

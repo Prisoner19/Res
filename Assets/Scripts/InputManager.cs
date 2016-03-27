@@ -45,10 +45,18 @@ public class InputManager : MonoBehaviour
 
 					if(success)
 					{
-						go_enemy_clicked.GetComponent<Enemy>().Get_Killed();
+						go_enemy_clicked.GetComponent<Enemy.Info>().Get_Killed();
 					}
 				}
 
+			}
+		}
+
+		if(InputTracker.Has_Clicked(Mouse_Button.Right))
+		{
+			if(SoldierManager.Instance.Get_Seletected_Soldier() != null)
+			{
+				SoldierManager.Instance.Get_Seletected_Soldier().Get_Attacking().Attack(Vector3.zero);
 			}
 		}
 	}
