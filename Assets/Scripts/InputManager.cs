@@ -47,14 +47,14 @@ public class InputManager : MonoBehaviour
             if (InputTracker.Get_Object_Under_Mouse("Soldier"))
             {
                 GameObject go_soldier = InputTracker.Get_Object_Under_Mouse("Soldier");
-                SoldierManager.Instance.Select_Soldier(go_soldier.GetComponent<Soldier>().ID);
+                SoldierManager.Instance.Select_Soldier(go_soldier.GetComponent<Soldier.Info>().ID);
             }
 
             GameObject go_enemy_clicked = InputTracker.Get_Object_Under_Mouse("Enemy");
 
             if (go_enemy_clicked != null)
             {
-                Soldier obj_random_idle_soldier = SoldierManager.Instance.Get_Random_Idle_Soldier();
+                Soldier.Info obj_random_idle_soldier = SoldierManager.Instance.Get_Random_Idle_Soldier();
 
                 if (obj_random_idle_soldier != null)
                 {

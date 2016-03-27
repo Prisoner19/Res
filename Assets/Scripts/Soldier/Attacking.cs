@@ -5,14 +5,14 @@ namespace Soldier
 {
     public class Attacking : MonoBehaviour 
     {
-        private Soldier obj_soldier;
+        private Soldier.Info obj_soldier;
 
         private int current_ammo;
         private bool can_attack;
 
         void Awake()
         {
-            obj_soldier = gameObject.GetComponent<Soldier>();
+            obj_soldier = gameObject.GetComponent<Soldier.Info>();
         }
 
         void Start () 

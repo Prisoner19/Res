@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SoldierSound : MonoBehaviour 
 {
-	private Soldier obj_soldier;
+	private Soldier.Info obj_soldier;
 
 	public AudioClip snd_shot_1;
 	public AudioClip snd_shot_2;
@@ -14,7 +14,7 @@ public class SoldierSound : MonoBehaviour
 
 	void Awake()
 	{
-		obj_soldier = gameObject.GetComponent<Soldier>();
+		obj_soldier = gameObject.GetComponent<Soldier.Info>();
 	}
 
 	// Use this for initialization

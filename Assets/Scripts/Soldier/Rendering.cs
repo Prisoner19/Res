@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Rendering : MonoBehaviour 
 {
-	private Soldier obj_soldier;
+	private Soldier.Info obj_soldier;
 
 	private Animator comp_animator;
 
@@ -12,7 +12,7 @@ public class Rendering : MonoBehaviour
 	// Use this for references
 	void Awake()
 	{
-		obj_soldier = gameObject.GetComponent<Soldier>();
+		obj_soldier = gameObject.GetComponent<Soldier.Info>();
 		comp_animator = gameObject.GetComponent<Animator>();
 		sprRnd_marker = gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
 	}

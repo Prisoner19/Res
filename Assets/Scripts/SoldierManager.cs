@@ -6,9 +6,9 @@ public class SoldierManager : MonoBehaviour
 {
 	private static SoldierManager instance;
 
-	public List<Soldier> list_obj_soldiers;
+	public List<Soldier.Info> list_obj_soldiers;
 
-	private Soldier obj_selected_soldier;
+	private Soldier.Info obj_selected_soldier;
 
 	// Use this for references
 	void Awake()
@@ -28,12 +28,12 @@ public class SoldierManager : MonoBehaviour
 	
 	}
 
-	public Soldier Get_Closest_Idle_Soldier(Vector3 enemy_position)
+	public Soldier.Info Get_Closest_Idle_Soldier(Vector3 enemy_position)
 	{
-		Soldier obj_closest_soldier = null;
+		Soldier.Info obj_closest_soldier = null;
 		float min_distance = float.MaxValue;
 
-		foreach(Soldier s in list_obj_soldiers)
+		foreach(Soldier.Info s in list_obj_soldiers)
 		{
 			if(s.Get_State() == SoldierState.Idle)
 			{
@@ -50,11 +50,11 @@ public class SoldierManager : MonoBehaviour
 		return obj_closest_soldier;
 	}
 
-	public Soldier Get_Random_Idle_Soldier()
+	public Soldier.Info Get_Random_Idle_Soldier()
 	{
 		if(Is_Any_Soldier_Idle() == true)
 		{
-			Soldier obj_random_soldier = null;
+			Soldier.Info obj_random_soldier = null;
 			int rand = Random.Range(0,list_obj_soldiers.Count);
 
 			do
@@ -85,7 +85,7 @@ public class SoldierManager : MonoBehaviour
 
 	public void Select_Soldier(int id)
 	{
-		Soldier obj_soldier = Get_Soldier_By_ID(id);
+		Soldier.Info obj_soldier = Get_Soldier_By_ID(id);
 
 		if(obj_soldier != null)
 		{
@@ -99,9 +99,9 @@ public class SoldierManager : MonoBehaviour
 		}
 	}
 
-	private Soldier Get_Soldier_By_ID(int id)
+	private Soldier.Info Get_Soldier_By_ID(int id)
 	{
-		foreach(Soldier s in list_obj_soldiers)
+		foreach(Soldier.Info s in list_obj_soldiers)
 		{
 			if(s.ID == id)
 			{
@@ -112,7 +112,7 @@ public class SoldierManager : MonoBehaviour
 		return null;
 	}
 
-	public Soldier Get_Seletected_Soldier()
+	public Soldier.Info Get_Seletected_Soldier()
 	{
 		return obj_selected_soldier;
 	}
