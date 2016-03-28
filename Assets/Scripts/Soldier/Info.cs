@@ -16,7 +16,7 @@ namespace Soldier
 
         private Rendering obj_rendering;
         private Attacking obj_attacking;
-        private SoldierSound obj_sound_player;
+        private SoundPlayer obj_sound_player;
 
         private SoldierState current_state;
 
@@ -25,7 +25,7 @@ namespace Soldier
         {
             obj_rendering = gameObject.GetComponent<Rendering>();
             obj_attacking = gameObject.GetComponent<Attacking>();
-            obj_sound_player = gameObject.GetComponent<SoldierSound>();
+            obj_sound_player = gameObject.GetComponent<SoundPlayer>();
         }
 
         // Use this for initialization
@@ -50,7 +50,7 @@ namespace Soldier
             return obj_attacking;
         }
 
-        public SoldierSound Get_Sound_Player()
+        public SoundPlayer Get_Sound_Player()
         {
             return obj_sound_player;
         }
